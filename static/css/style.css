@@ -93,17 +93,20 @@ h4 {
     display: inline-block;
 }
 
-
-.row-table {
-    display: table;
-}
-
 .history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.no-gutter {
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
 }
 
 
@@ -141,11 +144,12 @@ header {
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 82px;
     color: #ffffff;
 }
 
 #nav {
+    width: 100%;
     margin: 0;
 }
 
@@ -201,6 +205,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    padding-top: 10px;
 }
 
 footer .cv-pdf i {
@@ -302,6 +307,8 @@ footer .cv-pdf i:hover {
 .progress {
     position: relative;
     height: 25px;
+    width:  100%;
+    margin: 10px 0;
 }
 
 .progress-type {
