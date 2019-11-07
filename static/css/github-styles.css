@@ -166,7 +166,7 @@ img {
   font-size: 1.4em;
   color: #666;
   max-width: 550px;
-  margin: auto;
+  margin-bottom: 15px;
 }
 
 #gh-submit {
